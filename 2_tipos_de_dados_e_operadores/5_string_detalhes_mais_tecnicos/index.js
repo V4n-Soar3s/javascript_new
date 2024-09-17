@@ -13,7 +13,17 @@ Strings: Detalhes mais técnicos
  
 
 //quebra de linha com \n
+console.log("Primeira linha \nSegunda linha");//pula a linha com \n
 
-console.log("Primeira linha \n Segunda linha");//pula a linha com \n
+//imprimir aspas em uma string ex:
+console.log("O meu nome é 'Vanessa'");
+console.log('O nome dela é "Julia"');
+
+//template strings (beck tick's)
+console.log(`A multiplicação de 5 por 3 é ${5 * 3}`);
+
+//concatenação de strings
+console.log("O " + "meu " + "nome " + "é " + "Vanessa.");
+
 
 
