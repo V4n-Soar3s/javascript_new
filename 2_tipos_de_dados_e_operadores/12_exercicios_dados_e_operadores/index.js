@@ -14,12 +14,16 @@ console.log(12 * 65);//número por aritmética
 
 console.log(5 > 2);//true
 console.log( 4 <= 4);//true
-console.log(!(4 != 3));//false
+console.log(4 != 3);//true
 
 //4 - Escreva três comparações com operadores lógicos, com and, or e not
 
 console.log( 3 <= 4 && 4 <= 4);// and
 console.log(4 <= 3 || 3 >= 10);//or
 console.log(!(4 >= 4 && 5 === 5))//not
+
+//5 - Faça uma operação que emita NaN no console do navegador:
+
+console.log( 4 * "oi");//NaN 
 
 
