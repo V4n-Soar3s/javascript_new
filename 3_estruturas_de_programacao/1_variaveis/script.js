@@ -22,3 +22,8 @@ laranjas = "Laranja";//mudamos o tipo para string
 
 console.log(laranjas);//mudei o valor e o tipo para string 
 
+//declarações de multiplas variaveis:
+let um = 1, dois = 2, tres = 3;// foram declaradas tres variaveis numa só linha (nao é recomendado utilizar porém é possivel)
+
+console.log(um + dois + tres);// solicitei que seja impresso a soma de todas as variaveis declaradas
+
