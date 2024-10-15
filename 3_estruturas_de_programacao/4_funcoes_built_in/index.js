@@ -44,3 +44,26 @@ console.log(arredondar);//invoquei a função e será apresentado o número 5 de
 
 let arredonarParaCima = Math.ceil(5.2934723);
 console.log(arredonarParaCima);//invoquei a função e sera apresentado numero 6 pois arredondamos para cima com o método ceil
+
+//Função built-in: console.log()
+
+/*
+
+- Exibe uma mnesagem na tela, que é o argumento que passamos;
+- Ex: console.log('exibindo esta mensagem!')
+- Esta função é muito utilizada;
+- Veremos como fazer as nossas funções mais a frente;
+
+ */
+
+console.log('exibindo está mensagem!');
+
+let idade_user = 21;
+let nome_user = "Vanessa";
+
+console.log(idade_user);
+console.log(nome_user);
+
+console.log(`O meu nome é ${nome_user} e tenho ${idade_user} anos`)
+
+
