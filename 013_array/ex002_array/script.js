@@ -12,3 +12,5 @@ console.log(nomes[0]);//retorna Matheus
 console.log(nomes[1]);//retorna Vanessa
 console.log(bool[0]);//retorna true
 console.log(bool[1]);//retorna false
+console.log(arr[arr.length -1]);//retorna 7
+console.log(arr[arr.length -2]);//retorna 6
