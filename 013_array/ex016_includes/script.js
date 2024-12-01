@@ -8,5 +8,5 @@ console.log(racas.includes("Pug"));//retorna false pois nao existe no array
 console.log(racas.includes("Beagle"));//retorna true pois existe no array 
 
 if(racas.includes("Beagle")){
-    console.log('Este cachorro pertence a Vanessa')
+    console.log('Este cachorro pertence a Vanessa');
 }
