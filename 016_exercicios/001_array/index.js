@@ -14,3 +14,12 @@ let numeros = [1, 2, 3, 4 ,5];
 console.log(numeros[1]);
 console.log(numeros[3]);
 console.log(numeros[4]);
+
+
+//criei o array
+let nomes = ["Vanessa", "Lucas", "Bruna", "Guilherme", "Carlos"];
+
+//solicitei que apenas os indices 1, 3 e 4 sejam apresentados no console 
+console.log(nomes[1]);
+console.log(nomes[3]);
+console.log(nomes[4]);
