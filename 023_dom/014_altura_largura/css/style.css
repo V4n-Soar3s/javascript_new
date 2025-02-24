@@ -1,0 +1,7 @@
+/*css*/
+
+/*Vamos criar uma borda para o titulo principal, observe que usaremos o mesmo seletor do JS*/
+
+#titulo-principal{
+    border: 5px solid #000;/* teremos 5 pixels de uma borda solida e preta*/
+}
