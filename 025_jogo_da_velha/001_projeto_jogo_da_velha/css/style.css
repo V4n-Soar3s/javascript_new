@@ -1,0 +1,129 @@
+/*CSS */
+
+/*primeiro vamos estilizar o body*/
+body{
+    text-align: center;/*alinhamento do texto*/
+    font-family: Helvetica,sans-serif;/*letra que iremos utilizar no body*/
+}
+
+h1{
+    font-size: 42px;/*tamanho da letra*/
+}
+
+/*botões*/
+
+#buttons-container button{
+    border: none;/*tiramos a borda do botão*/
+    padding: 10px 15px;/*altura do botão vai ser de 10px e lateral de 15 px*/
+    margin: 0 10px;/*vamos afastar um botão do outro, usamos este para criar margens laterais*/
+}
+
+/*jogo*/
+
+#container{
+    display: flex ;
+    width: 320px;/*tem 300px de largura o container*/
+    margin: 0;/*tiramos as margens*/
+    flex-direction: row;/*informei que a direção é linha*/
+    flex-wrap: wrap;
+    position: relative;/*informamos que a posição é relativa*/ 
+    margin-left: auto;/*é assim que centralizamos uma div de posição relativa na tela*/
+    margin-right: auto;/*é assim que centralizamos uma div de posição relativa na tela*/
+}
+
+/*criando o estilo do box*/
+.box{
+    height: 100px;/*definimos a altura de 100px*/
+    border: 5px solid black;
+    box-sizing: border-box;/*estamos informando que a div vai ter no maximo 100 de largura e não cem mais a borda o maximo de altura dela é contando com as bordas*/
+    flex: 1 1 33%;/*a mesma terá um display de flex uma posição flex*/
+}
+
+/*como tirar a borda*/
+#block-1, #block-2, #block-3{
+    border-top: none;/*retiramos a borda do topo*/
+}
+
+#block-1, #block-4, #block-7{
+    border-left: none;/*retiramos a borda da esquerda*/
+}
+
+#block-3, #block-6, #block-9{
+    border-right: none;/*retiramos a borda da direita*/
+}
+
+#block-7, #block-8, #block-9{
+    border-bottom: none;/*retiramos a borda debaixo*/
+}
+
+/*símbolos*/
+
+/*como criar o x*/
+.x{
+    font-size: 65px;/*tamanho do x*/
+    color: red;/*cor*/
+    display: inline-block;/*para conseguir mexer ele na mesma linha*/
+    line-height: 100px;/*informamos que a line height é 100 para centralizar o x*/
+}
+
+/*como criar o bolinha*/
+.o{
+    width: 50px;/*altura*/
+    height: 50px;/*largura*/
+    border: 5px solid forestgreen;/*criei um quadrado*/
+    border-radius: 50%; /*isso transforma o quadrado em um círculo*/
+    display: inline-block;/*informei que a bolinha aceita outros elementos na mesma linha*/
+    margin-top: 17px;/*informei que o mesmo terá o topo de 17px*/
+}
+
+
+/*classe de esconder*/
+
+/*.hide{
+    display: none !important;/*dessa forma ela esconde os elementos que estao dentro da sua classe*/
+/*}*/
+
+/*estilização do placar*/
+#scoreboard-container{
+    font-weight: bold;/*nossa fonte será em negrito*/
+    margin-top: 30px;/*para que o elemento não fique tão próximo do jogo*/
+    font-size: 25px ;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.score-box{
+    margin: 0 20px;
+}
+
+#x-scoreboard{
+    color: red;
+    margin-right: 3px;/*para descolar dos 2 pontos*/
+}
+
+#o-scoreboard{
+    display: inline-block ;
+    width: 18px;
+    height: 18px;
+    border: 2px solid green;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+
+/*msg de vitoria*/
+
+#message p{
+    position: absolute;/*a posição será absoluta, pois, ela vem na frente de todo o conteúdo após vencer*/
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 150px;
+    width: 500px;
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    padding: 20px;/*em todos os cantos para afastar o texto da borda*/
+    display: none;/*apenas para esconder por enquanto*/
+}
